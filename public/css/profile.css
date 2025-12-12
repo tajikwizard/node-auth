@@ -1,0 +1,73 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f5f6fa;
+}
+
+/* Profile container */
+.profile-container {
+    max-width: 600px;
+    margin: 120px auto; /* space below header */
+    background: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.profile-container h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #007bff;
+    font-weight: 700;
+}
+
+/* Profile details */
+.profile-container div h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Logout button */
+.profile-container button {
+    margin-top: 25px;
+    padding: 12px 16px;
+    width: 100%;
+    background: #ff4d4f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.profile-container button:hover {
+    background: #d9363e;
+    box-shadow: 0 4px 12px rgba(255, 77, 79, 0.4);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .profile-container {
+        margin: 80px auto;
+        padding: 25px;
+    }
+
+    .profile-container h1 {
+        font-size: 26px;
+    }
+
+    .profile-container div h2 {
+        font-size: 18px;
+    }
+}

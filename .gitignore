@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+=
+
+=
+# MongoDB local data (if you have a local db folder)
+data/
+
+# Optional: IDE / editor files
+.vscode/
+.idea/
